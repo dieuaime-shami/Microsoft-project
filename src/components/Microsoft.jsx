@@ -13,6 +13,11 @@ import Cardgamescom from '../assets/Cardgamescom.avif'
 import HighlightMC from '../assets/HighlightMC.avif'
 import ContentCard from '../assets/ContentCard.avif'
 import ContentCardMicrosoft from '../assets/ContentCardMicrosoft.avif'
+import ContentCardWindows from '../assets/ContentCardWindows.avif'
+import ContentCardAzureAIBloom from '../assets/ContentCardAzureAIBloom.avif'
+import ContentCardAIforScience from '../assets/ContentCardAIforScience.avif'
+import ContentCardAIStudentsFight from '../assets/ContentCardAIStudentsFight.avif'
+import ContentCardAIWorklab from '../assets/ContentCardAIWorklab.avif'
 
 
 
@@ -164,6 +169,69 @@ const Microsoft = () => {
              Save time and focus on the things that matter most with AI in Microsoft 365 for business
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
+          </div>
+        </div>
+
+       {/* Window */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardWindows} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>Windows 11 for business</p>
+            <p className='text-xl'>
+             Designed for hybrid work.Powerful for employees.
+             Consistent for IT.Secure for all.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
+          </div>
+        </div>
+
+       {/*era of AI */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardAzureAIBloom} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>Join the era of AI</p>
+            <p className='text-xl'>
+             Create, communicate, and code with the latest Microsoft AI solutions.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Explore AI solutions</button>
+          </div>
+        </div>
+
+       {/* AI and copilot */}
+       <p className='text-3xl font-semibold ml-4'>Explore more about AI and Copilot</p>
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardAIforScience} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>5 ways AI is revolutionizing science</p>
+            <p className='text-xl'>
+             From healthcare to quantum computing,Microsoft is helping the scientific community move faster and turn complex research into real-world solutions.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
+          </div>
+        </div>
+
+       {/* cyberCrime */}
+  
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardAIStudentsFight} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>Tapping students to fight cybercrime</p>
+            <p className='text-xl'>
+             Learn how universities are training students on Microsoft security tools and AI to protect against cyberthreats.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Uncover the details</button>
+          </div>
+        </div>
+
+       {/* work easier */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardAIWorklab} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>How AI makes hard work easier</p>
+            <p className='text-xl'>
+             Dive into the surprising ways that Copilot reduce the mental effort of complex tasks and enhances quality of work.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Uncover the details</button>
           </div>
         </div>
 
