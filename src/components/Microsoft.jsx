@@ -25,7 +25,8 @@ import HighlightCreatorsGreater from '../assets/HighlightCreatorsGreater.avif'
 const Microsoft = () => {
   return (
     <div>
-      <nav className='h-24 flex justify-around items-center w-154'>
+      <nav className='h-24 flex justify-around items-center w-154 
+      md:w-254 md:justify-between md:px-10 '>
         <div className='flex gap-6 items-center'>
           <div><i class="fa-solid fa-bars fa-2xl" style={{ fontSize: "2rem" }}></i></div>
           <div><i class="fa-solid fa-magnifying-glass" style={{ fontSize: "1rem" }}></i></div>
@@ -268,6 +269,117 @@ const Microsoft = () => {
           </div>
           <button className='text-2xl bg-gray-300 py-3 px-5 absolute right-4 bottom-0'><i class="fa-solid fa-arrow-up"></i>Back to top</button>
         </div>
+
+        {/* footer */}
+        <div className='bg-gray-200 mt-20 p-10 m-0 w-full'>
+          {/* new */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>What's new</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Surface Pro</li>
+              <li>Surface Laptop</li>
+              <li>Surface Laptop Studio2</li>
+              <li>Copilot for organizaions</li>
+              <li>Copilot for Personal</li>
+              <li>AI in Windows</li>
+              <li>Explore Microsoft products</li>
+              <li>Windows 11 apps</li>
+            </ul>
+          </div>
+          {/* Microsoft Store */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>Microsoft Store</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Account profile</li>
+              <li>Download Center</li>
+              <li>Microsoft Store support</li>
+              <li>Returns</li>
+              <li>Order tracking</li>
+              <li>Certified Refurbished</li>
+              <li>Microsoft Store Promise</li>
+              <li>Flexible Payments</li>
+            </ul>
+          </div>
+          
+          {/* Educations */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>Education</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Microsoft in education</li>
+              <li>Devices for education</li>
+              <li>Microsoft Teams for Education</li>
+              <li>Microsoft 365 Education</li>
+              <li>How to buy for your school</li>
+              <li>Educator training and development</li>
+              <li>Deals for students and parents</li>
+              <li>AI for education</li>
+            </ul>
+          </div>
+
+          {/* Business */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>Business</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Microsoft Cloud</li>
+              <li>Microsoft Security</li>
+              <li>Dynamics 365</li>
+              <li>Microsoft 365</li>
+              <li>Microsoft Power Platform</li>
+              <li>Microsoft Teams</li>
+              <li>Microsoft 365 Copilot</li>
+              <li>Small Business</li>
+            </ul>
+          </div>
+
+          {/* Developer & IT */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>Developer & IT</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Azure</li>
+              <li>Microsoft Developer</li>
+              <li>Microsoft Learn</li>
+              <li>Support for AI marketplace apps</li>
+              <li>Microsoft Tech Community</li>
+              <li>Azure Marketplace</li>
+              <li>AppSource</li>
+              <li>Visual Studio</li>
+            </ul>
+          </div>
+
+          {/* Company */}
+          <div className='py-3'>
+            <p className='text-3xl text-gray-700 font-semibold py-3'>Company</p>
+            <ul className='space-y-1 text-lg text-gray-500'>
+              <li>Careers</li>
+              <li>About Microsoft</li>
+              <li>Company news</li>
+              <li>Privacy at Microsoft</li>
+              <li>Investors</li>
+              <li>Diversity and inclusion</li>
+              <li>Accessibility</li>
+              <li>Sustainability</li>
+            </ul>
+          </div>
+
+            {/* down section */}
+
+            <div className='mt-8'>
+              <div className='flex items-center gap-3'>
+                <i class="fa-solid fa-earth-americas fa-2xl"></i>
+                <p className='text-xl text-gray-700'>English (united States)</p>
+              </div>
+              <div className='py-2 flex gap-x-3 mt-2 items-center'>
+                <div className='h-7 w-16 border-3 border-blue-500 rounded-2xl flex items-center'>
+                    <button className='h-full w-1/2'><i class="fa-solid fa-check text-blue-500"></i></button>
+                    <button className='h-full w-1/2 bg-blue-500 rounded-r-2xl'><i class="fa-solid fa-xmark text-white"></i></button>
+                </div>
+                <p className='text-xl text-gray-700'>Your Privacy Choices</p>
+              </div>
+              <p className='text-xl text-gray-700 mt-5'>Consumer Health Privacy</p>
+            </div>
+
+        </div>
+
       </div>
     </div>
   )
