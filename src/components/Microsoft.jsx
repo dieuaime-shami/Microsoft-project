@@ -10,6 +10,9 @@ import Microsoft365 from '../assets/Microsoft365.svg'
 import CardCopilot from '../assets/CardCopilot.avif'
 import CardSurfaceLaptop from '../assets/CardSurfaceLaptop.avif'
 import Cardgamescom from '../assets/Cardgamescom.avif'
+import HighlightMC from '../assets/HighlightMC.avif'
+import ContentCard from '../assets/ContentCard.avif'
+import ContentCardMicrosoft from '../assets/ContentCardMicrosoft.avif'
 
 
 
@@ -119,6 +122,46 @@ const Microsoft = () => {
             <p className='text-xl'>
               Join us onsite and broadcasting live August 20-24 from Cologne,Germany as we explore games
               coming to Xbox,PC and Games Pass.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
+          </div>
+        </div>
+
+        {/* Sports */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={HighlightMC} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>EA SPORTS<sup className='text-lg'>TM</sup> Madden NFL 26</p>
+            <p className='text-xl'>
+              Join us onsite and broadcasting live August 20-24 from Cologne,Germany as we explore games
+              coming to Xbox,PC and Games Pass.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
+          </div>
+        </div>
+
+        {/* Bussiness */}
+        <p className='text-4xl font-semibold ml-4 mt-20'>For business</p>
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCard} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-3'>
+             <button className='bg-amber-400 my-2 text-2xl font-semibold py-2 px-3'>Now available with 5G</button>
+            <p className='text-3xl font-semibold my-2'>Surface Laptop for Business,Copilot+ PC, 13.8 and 15-inch|Intel</p>
+            <p className='text-xl'>
+              Uncompromising power,all-day battery life,*unique AI experiences -featuring Intel <span className='text-2xl'>&reg;</span>
+              Core <sup>TM</sup> Ultra processors (Series 2).Now available with optional 5G connectivity.**
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Pre-order now</button>
+          </div>
+        </div>
+
+       {/* Copilot */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={ContentCardMicrosoft} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>Microsoft 365 Copilot</p>
+            <p className='text-xl'>
+             Save time and focus on the things that matter most with AI in Microsoft 365 for business
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
           </div>
