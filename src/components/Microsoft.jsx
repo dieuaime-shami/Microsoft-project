@@ -18,6 +18,7 @@ import ContentCardAzureAIBloom from '../assets/ContentCardAzureAIBloom.avif'
 import ContentCardAIforScience from '../assets/ContentCardAIforScience.avif'
 import ContentCardAIStudentsFight from '../assets/ContentCardAIStudentsFight.avif'
 import ContentCardAIWorklab from '../assets/ContentCardAIWorklab.avif'
+import HighlightCreatorsGreater from '../assets/HighlightCreatorsGreater.avif'
 
 
 
@@ -150,7 +151,7 @@ const Microsoft = () => {
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCard} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-3'>
-             <button className='bg-amber-400 my-2 text-2xl font-semibold py-2 px-3'>Now available with 5G</button>
+            <button className='bg-amber-400 my-2 text-2xl font-semibold py-2 px-3'>Now available with 5G</button>
             <p className='text-3xl font-semibold my-2'>Surface Laptop for Business,Copilot+ PC, 13.8 and 15-inch|Intel</p>
             <p className='text-xl'>
               Uncompromising power,all-day battery life,*unique AI experiences -featuring Intel <span className='text-2xl'>&reg;</span>
@@ -160,81 +161,113 @@ const Microsoft = () => {
           </div>
         </div>
 
-       {/* Copilot */}
+        {/* Copilot */}
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardMicrosoft} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>Microsoft 365 Copilot</p>
             <p className='text-xl'>
-             Save time and focus on the things that matter most with AI in Microsoft 365 for business
+              Save time and focus on the things that matter most with AI in Microsoft 365 for business
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
           </div>
         </div>
 
-       {/* Window */}
+        {/* Window */}
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardWindows} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>Windows 11 for business</p>
             <p className='text-xl'>
-             Designed for hybrid work.Powerful for employees.
-             Consistent for IT.Secure for all.
+              Designed for hybrid work.Powerful for employees.
+              Consistent for IT.Secure for all.
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
           </div>
         </div>
 
-       {/*era of AI */}
+        {/*era of AI */}
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardAzureAIBloom} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>Join the era of AI</p>
             <p className='text-xl'>
-             Create, communicate, and code with the latest Microsoft AI solutions.
+              Create, communicate, and code with the latest Microsoft AI solutions.
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Explore AI solutions</button>
           </div>
         </div>
 
-       {/* AI and copilot */}
-       <p className='text-3xl font-semibold ml-4'>Explore more about AI and Copilot</p>
+        {/* AI and copilot */}
+        <p className='text-3xl font-semibold ml-4'>Explore more about AI and Copilot</p>
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardAIforScience} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>5 ways AI is revolutionizing science</p>
             <p className='text-xl'>
-             From healthcare to quantum computing,Microsoft is helping the scientific community move faster and turn complex research into real-world solutions.
+              From healthcare to quantum computing,Microsoft is helping the scientific community move faster and turn complex research into real-world solutions.
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Learn more</button>
           </div>
         </div>
 
-       {/* cyberCrime */}
-  
+        {/* cyberCrime */}
+
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardAIStudentsFight} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>Tapping students to fight cybercrime</p>
             <p className='text-xl'>
-             Learn how universities are training students on Microsoft security tools and AI to protect against cyberthreats.
+              Learn how universities are training students on Microsoft security tools and AI to protect against cyberthreats.
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Uncover the details</button>
           </div>
         </div>
 
-       {/* work easier */}
+        {/* work easier */}
         <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
           <img src={ContentCardAIWorklab} alt="" className='w-full ' />
           <div className='w-130 mx-auto my-2'>
             <p className='text-3xl font-semibold my-3'>How AI makes hard work easier</p>
             <p className='text-xl'>
-             Dive into the surprising ways that Copilot reduce the mental effort of complex tasks and enhances quality of work.
+              Dive into the surprising ways that Copilot reduce the mental effort of complex tasks and enhances quality of work.
             </p>
             <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Uncover the details</button>
           </div>
         </div>
 
+        {/* Teamwork */}
+        <div className='w-140 mx-auto shadow-xl border border-gray-300 my-10'>
+          <img src={HighlightCreatorsGreater} alt="" className='w-full ' />
+          <div className='w-130 mx-auto my-2'>
+            <p className='text-3xl font-semibold my-3'>Teamwork and tech power Tomorrow Academies</p>
+            <p className='text-xl'>
+              By tranforming its technology footprint with Microsoft tools, the Greater Austin YMCA met a critical need for child
+              care in the community.
+            </p>
+            <button className='bg-blue-600 text-2xl py-3 px-4 text-white my-6'>Read the story</button>
+          </div>
+        </div>
+
+        {/* symbols */}
+        <div className='w-90 flex items-center justify-around mx-auto my-15 '>
+          <i class="fa-regular fa-circle-pause fa-2xl"></i>
+          <i class="fa-solid fa-less-than fa-2xl"></i>
+          <button className='h-5 w-5 border border-black rounded-full'></button>
+          <button className='h-5 w-5 border border-black rounded-full bg-black'></button>
+          <i class="fa-solid fa-greater-than fa-2xl"></i>
+        </div>
+
+        {/* follow Microsoft */}
+        <div className='relative h-25 '>
+          <div className='flex items-center gap-5 absolute left-2 top-'>
+            <p className='text-2xl'>Follow Microsoft</p>
+            <i class="fa-brands fa-facebook-f fa-xl"></i>
+            <i class="fa-brands fa-x-twitter fa-xl"></i>
+            <i class="fa-brands fa-linkedin fa-xl"></i>
+          </div>
+          <button className='text-2xl bg-gray-300 py-3 px-5 absolute right-4 bottom-0'><i class="fa-solid fa-arrow-up"></i>Back to top</button>
+        </div>
       </div>
     </div>
   )
